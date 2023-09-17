@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>cssMemeSlider</title>
+</head>
+<body>
+<header class="header">
+    <div class="wrapper header__wrapper">
+        <h1 class="header__heading">cssMemeSlider</h1>
+    </div>
+</header>
+
+<main class="main">
+    <div class="slider">
+        <input class="pagination__input" type="radio" id="one" name="mem" value="one" checked>
+        <input class="pagination__input" type="radio" id="two" name="mem" value="two">
+        <input class="pagination__input" type="radio" id="three" name="mem" value="three">
+        <input class="pagination__input" type="radio" id="four" name="mem" value="four">
+        <input class="pagination__input" type="radio" id="five" name="mem" value="five">
+
+        <div class="slider__images">
+            <div class="slider__images-block">
+                <div class="slider__img-item"><img src="img/mem1.png" alt="Mem 1" class="slider__img"></div>
+                <div class="slider__img-item"><img src="img/mem2.png" alt="Mem 2" class="slider__img"></div>
+                <div class="slider__img-item"><img src="img/mem3.png" alt="Mem 3" class="slider__img"></div>
+                <div class="slider__img-item"><img src="img/mem4.png" alt="Mem 4" class="slider__img"></div>
+                <div class="slider__img-item"><img src="img/mem5.png" alt="Mem 5" class="slider__img"></div>
+            </div>
+        </div>
+        <div class="slider__description">
+            <div class="slider__text">
+                <div class="slider__text-block">
+                    <span class="slider__sentence">Я что-то нажала и все исчезло</span>
+                    <span class="slider__sentence">Когда зла на всех не хватает</span>
+                    <span class="slider__sentence">Что ты будешь делать в выходные? А в выходные тоже что-то надо делать?</span>
+                    <span class="slider__sentence">Я вчера опять легла сегодня</span>
+                    <span class="slider__sentence">Так! Соберись, ты же как-то это делал...</span>
+                </div>
+            </div>
+
+
+            <div class="pagination">
+
+                    <label for="one" class="pagination__label"><span class="pagination__span"></span></label>
+                    <label for="two" class="pagination__label"><span class="pagination__span"></span></label>
+                    <label for="three" class="pagination__label"><span class="pagination__span"></span></label>
+                    <label for="four" class="pagination__label"><span class="pagination__span"></span></label>
+                    <label for="five" class="pagination__label"><span class="pagination__span"></span></label>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>

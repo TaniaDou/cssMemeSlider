@@ -159,8 +159,9 @@ body {
     }
     .slider__description {
         flex-direction: column-reverse;
+        flex-wrap: wrap;
         align-items: center;
-        row-gap: 1rem;
+
     }
     .slider__text {
     width: 70%;
@@ -169,6 +170,7 @@ body {
         width: 100%;
         order: 2;
         margin-bottom: 4rem;
+
     }
 }
 
